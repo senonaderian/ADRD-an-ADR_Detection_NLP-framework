@@ -8,8 +8,3 @@ We use the Fork and Pull Request model for contribution. For more information re
 
 # Contibuters
 Senobar Naderian
-
-Roya Rahmani
-
-Taha Soltany
-
