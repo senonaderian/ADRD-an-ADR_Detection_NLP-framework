@@ -226,8 +226,6 @@ print(data[['drug_id','condition','usefulness','dosage_duration']][data['usefuln
 # lets check the Most Common Conditions
 print("Number of Unique Conditions :", data['condition'].nunique(),'\n')
 print(data['condition'].value_counts().head(10))
-# lets check Drugs, which were useful to Highest Number of Poeple
-print(data[['drug_id','usefulness','dosage_duration']][data['usefulness'] > data['usefulness'].mean()].sort_values(by = 'usefulness', ascending = False).head(10).reset_index(drop = True))
 # lets remove all the Duplicates from the Dataset
 data = data.drop_duplicates()
 
